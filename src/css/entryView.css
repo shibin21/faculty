@@ -1,0 +1,346 @@
+#title{
+	-fx-text-fill:white;
+	-fx-padding:0 0 0 0;
+    -fx-font-size: 15pt;
+}
+#divgrid{
+	-fx-background-color:white;
+}
+#options{
+	-fx-background-color:	#ecf0f1;
+	-fx-pref-width:150;
+}
+#options .button{
+	-fx-background-color:transparent;
+	-fx-pref-width:150;
+	-fx-pref-height:50;
+    -fx-border-width: 0;
+    -fx-border-style: none; 
+	-fx-border-color: transparent; 
+	-fx-background-radius: 0;
+	-fx-font-family: "Segoe UI light";
+	-fx-text-fill:grey;
+	-fx-font-size:18px;
+}
+#options .button:focused{
+    -fx-background-color:#bdc3c7;
+	-fx-border-color:white;
+	
+}
+#options .button:selected{
+    -fx-background-color:#bdc3c7;
+	-fx-border-color:white;
+	
+}
+#options .button:hover{
+    -fx-background-color: #bdc3c7;
+}
+#tlist{
+	-fx-background-color:	#ecf0f1;
+	-fx-pref-width:200;
+}
+#tlist .label{
+	-fx-pref-width:100;
+	-fx-pref-height:50;
+	-fx-background-color:	#3498db;
+	-fx-alignment:CENTER;
+	-fx-font-size: 18px;
+	-fx-text-fill: #ecf0f1;
+}
+#bottompane{
+	-fx-padding:20;
+}
+#bottompane .button{
+    -fx-padding: 5 22 5 22;   
+    -fx-border-style: none; 
+    -fx-background-radius: 0;
+    -fx-border-color : #3498db;
+    -fx-border-width:2;
+    -fx-background-color:transparent;
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+    -fx-font-family: "Segoe UI Bold";
+    -fx-font-size: 18px;
+    -fx-text-fill: grey;
+}
+#bottompane .button:hover{
+    -fx-background-color: #3498db;
+	-fx-text-fill: white;
+}
+#period{
+}
+#period .label{
+	-fx-pref-width:180;
+	-fx-pref-height:100;
+	-fx-background-color:	#3498db;
+	-fx-alignment:CENTER;
+	-fx-font-family: "Segoe UI Bold";
+	-fx-font-size: 28px;
+	-fx-text-fill: #ecf0f1;
+}
+#divlabel{
+	-fx-pref-width:30;
+	-fx-pref-height:20;
+	-fx-alignment:center;
+	-fx-font-size: 18px;
+	-fx-background-color: transparent;
+}
+#datepane{
+	-fx-padding :20 20 80 20;
+	-fx-background-color:white;
+}
+#nextpane{
+	-fx-padding:60 0 0 0;
+}
+#nextpane .button{
+	-fx-pref-width:80;
+	-fx-pref-height:35;
+	-fx-background-radius: 0, 0;
+	-fx-background-color: #ecf0f1;
+	-fx-text-fill:grey;
+	-fx-font-family: "Segoe UI semibold";
+	-fx-font-size: 14px;
+}
+#nextpane .button:hover{
+	-fx-background-color:#bdc3c7;
+	-fx-text-fill:white;
+}
+#nextpane .button:focused{
+	-fx-border-color:black;
+}
+#search{
+    -fx-background-radius: 0, 0;
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #3498db;
+    -fx-background-insets: 0;
+    -fx-prompt-text-fill: #818181;
+    -fx-highlight-fill: #008287; /* TODO: this probably is the "active" color" */
+    -fx-highlight-text-fill: white;
+    -fx-text-fill: grey;
+    -fx-font-family: "Segoe UI Light";
+    -fx-font-size: 14px;
+	-fx-background-image:url('../img/search.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: right center;
+    
+}
+.list-cell:filled:focused, .list-cell:filled:selected {
+    -fx-background-color: #bdc3c7;
+    -fx-text-fill: white;
+}
+
+.list-cell { /* <=== changed to even */
+    -fx-background-color: #ecf0f1;
+    -fx-text-fill: grey;
+    -fx-cell-size: 2.3em; /* 24 */
+    -fx-font: 15px "Segoe UI Semibold";
+    -fx-alignment: CENTER;
+	-fx-border-width:0;
+    -fx-border-color:transparent;
+}
+
+.list-cell:filled:hover {
+    -fx-background-color:#3498db;
+    -fx-text-fill: white;
+}
+
+.list-view{
+    -fx-background-color: #ecf0f1;
+    -fx-border-insets: 0;
+    -fx-background-insets: 0;
+	-fx-border-width:0;
+	-fx-border-color:#ecf0f1;
+	-fx-pref-height:720;
+}
+
+.scroll-bar .thumb{
+    -fx-background-color: #cdcdcd;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+
+.scroll-bar .thumb:hover {
+    -fx-color: #dadada;
+}
+
+/* The following is not working. Maybe related to RT-10521*/
+.scroll-bar .thumb:pressed {
+    -fx-background-color: #606060;
+}
+
+.scroll-bar .track {
+    -fx-background-color: #f0f0f0;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+
+.scroll-bar .track-background {
+    -fx-background-color: #f0f0f0;
+    -fx-background-insets: 0;
+}
+
+.scroll-bar .increment-button, .scroll-bar .decrement-button {
+    -fx-background-color: #f0f0f0;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-padding: 0.25em; /* 3 */
+}
+
+.scroll-bar .increment-button:hover, .scroll-bar .decrement-button:hover  {
+    -fx-background-color: #dadada;
+}
+
+.scroll-bar .increment-button:pressed, .scroll-bar .decrement-button:pressed {
+    -fx-background-color: #606060;
+}
+
+.scroll-bar:horizontal .increment-arrow {
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+    -fx-background-insets: 1 0 -1 0, 0;
+    -fx-padding: 0.5em 0.333333em 0.0em 0.0em; /* 6 4 0 0 */
+    -fx-shape: "M7.626,12.876L4.251,8.751H7.14L11,12.876L7.14,17H4.251L7.626,12.876z";
+}
+
+.scroll-bar:vertical .increment-arrow {
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+    -fx-background-insets: 1 0 -1 0, 0;
+    -fx-padding: 10 0 0 10; /* 4 6 0 0 */
+    -fx-shape: "M8.124,13.625l4.125-3.375v2.889l-4.125,3.86L4,13.139V10.25L8.124,13.625z";
+}
+
+.scroll-bar .increment-button:pressed .increment-arrow {
+    -fx-background-color: white, white;
+}
+
+.scroll-bar:horizontal .decrement-arrow {
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+    -fx-background-insets: 1 0 -1 0, 0;
+    -fx-padding: 0.5em 0.333333em 0.0em 0.0em; /* 6 4 0 0 */
+    -fx-shape: "M11,17H8.111l-3.86-4.124l3.86-4.125H11l-3.375,4.125L11,17z";
+}
+
+.scroll-bar:vertical .decrement-arrow {
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+    -fx-background-insets: 1 0 -1 0, 0;
+    -fx-padding: 10 0 0 10; /* 4 6 0 0 */
+    -fx-shape: "M4,17v-2.889l4.124-3.86l4.125,3.86V17l-4.125-3.375L4,17z";
+}
+
+.scroll-bar .decrement-button:pressed .decrement-arrow {
+    -fx-background-color: white, white;
+}
+
+.scroll-bar:disabled {
+    -fx-opacity: 0.1;
+}
+.date-picker > .arrow-button > .arrow {
+    -fx-shape: "M0,0v9h9V0H0z M2,8H1V7h1V8z M2,6H1V5h1V6z M2,4H1V3h1V4z M4,8H3V7h1V8z M4,6H3V5h1V6z M4,4H3V3h1V4z M6,8H5V7h1V8z M6,6H5 V5h1V6z M6,4H5V3h1V4z M8,8H7V7h1V8z M8,6H7V5h1V6z M8,4H7V3h1V4z";
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+    -fx-background-insets: 1 0 -1 0, 0;
+    -fx-padding: 0.416667em 0.416667em 0.333333em 0.333333em; /* 5 5 4 4 */
+    -fx-scale-shape: true;
+}
+
+.date-picker{
+	-fx-background-radius:0;
+}
+
+.date-picker .text-field{
+    -fx-skin: "com.sun.javafx.scene.control.skin.TextFieldSkin";
+}
+.date-picker .text-input{
+    -fx-background-radius: 0, 0;
+	-fx-background-color: #ecf0f1;
+	-fx-border-color: #3498db;
+	-fx-background-insets: 0;
+	-fx-prompt-text-fill: #818181;
+	-fx-highlight-fill: #008287; /* TODO: this probably is the "active" color" */
+	-fx-highlight-text-fill: white;
+	-fx-text-fill: grey;
+	-fx-font-family: "Segoe UI Light";
+	-fx-font-size: 14px;
+	-fx-background-position: right center;
+	-fx-pref-width:155;
+
+
+    -fx-background-color: transparent, white;
+    -fx-background-insets: 2, 2;
+}
+
+.date-picker > .arrow-button {
+	-fx-background-radius:0;
+}
+
+.date-picker > .arrow-button:hover {
+    -fx-background-color: #ecf0f1;
+}
+
+.date-picker > .arrow-button:pressed {
+    -fx-background-color: black;
+}
+
+.date-picker > .arrow-button:pressed > .arrow {
+    -fx-background-color: white;
+}
+
+.date-picker-popup {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.date-picker-popup > .month-year-pane {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.date-picker-popup > * > .spinner > .button {
+    -fx-padding: 0.25em 0.583333em 0.25em 0.583333em; /* 3 7 3 7 */
+}
+
+.date-picker-popup > * > .spinner > .button {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.date-picker-popup > * > .spinner {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.date-picker-popup > * > .spinner > .button:hover {
+    -fx-background-color: #dadada;
+}
+
+.date-picker-popup > * > .spinner > .button:armed {
+    -fx-background-color: #606060;
+}
+
+.date-picker-popup > * > .spinner > .button > .left-arrow,
+.date-picker-popup > * > .spinner > .button > .right-arrow {
+    -fx-background-color: #606060;
+    -fx-background-insets: 0;
+    -fx-effect: null;
+}
+
+.date-picker-popup > * > .spinner > .button:pressed > .left-arrow,
+.date-picker-popup > * > .spinner > .button:pressed > .right-arrow {
+    -fx-background-color: white;
+    -fx-background-insets: 0;
+}
+
+.date-picker-popup > .calendar-grid {
+    -fx-background-color: white;
+    /*-fx-background-insets: 1 0 0 0;*/
+    -fx-padding: 0;
+}
+
+.date-picker-popup > * > .previous-month,
+.date-picker-popup > * > .next-month {
+    -fx-background-color: white;
+    -fx-opacity: 0.3;
+}
+
+.date-picker-popup > * > .day-name-cell,
+.date-picker-popup > * > .week-number-cell {
+    -fx-font-size: 0.75em;
+}

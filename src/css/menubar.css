@@ -1,0 +1,45 @@
+.root{
+	-fx-background-color:#3498db;
+}
+#close-button{
+	-fx-max-height:10;
+    -fx-padding: 0 0 0 0;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+	-fx-focus-color: transparent;
+	-fx-border-width: 0;
+	-fx-border-style: none; 
+	-fx-background-radius: 0;
+}
+#close-button:hover{
+    -fx-border-color: transparent;
+    -fx-background-color: #c0392b;
+}
+#back-button{
+	
+    -fx-padding: 10 0 0 30;
+    -fx-background-color: transparent;
+	-fx-focus-color: transparent;
+    -fx-border-width: 0;
+    -fx-border-style: none; 
+}
+#back-box{
+	-fx-padding: 0 0 10 0;
+	-fx-border-color: transparent;
+}
+#right-box{
+    -fx-padding: 0 0 0 0;
+}
+#right-pane{
+    -fx-padding: -30 0 0 0;
+}
+#right-pane .button{
+	-fx-padding: 0 0 0 0;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+	-fx-focus-color: transparent;
+}
+#right-pane .button:hover{
+    -fx-border-color: transparent;
+    -fx-background-color: #c0392b;
+}

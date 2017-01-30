@@ -1,0 +1,169 @@
+.btn {
+  -fx-graphic: url('/img/arrowLeftBlack.png');
+}
+
+.root{
+    -fx-background-color: #3498db;
+}
+ 
+ 
+ 
+.header{
+    -fx-font-size: 42pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: black;
+}
+ 
+.item-title{
+    -fx-font-size: 11pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+    -fx-opacity: 0.6;
+      
+}
+ 
+/*******************************************************************************
+ *                                                                             *
+ * Push Button                                                                 *
+ *                                                                             *
+ ******************************************************************************/
+ 
+.button {
+    -fx-padding: 5 22 5 22;   
+    -fx-border-style: null; 
+    -fx-background-radius: 0;
+    -fx-width:20px;
+ 
+    -fx-background-color: transparent;
+   
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: black;
+}
+ 
+.button:hover{
+    -fx-background-color: transparent;
+}
+ 
+
+
+.button:pressed, .button:default:hover:pressed
+{
+  -fx-background-color: black;
+  -fx-text-fill: white;
+}
+ 
+.button:focused
+{
+    
+}
+ 
+.button:disabled, .button:default:disabled
+{
+    -fx-opacity: 0.4;
+    -fx-background-color: transparent;
+    -fx-text-fill: #212121;
+}
+ 
+.button:default
+{
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+}
+ 
+.button:default:hover{
+    -fx-background-color: #219297;
+}
+#close-button{
+    -fx-padding: 0 0 0 0;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+ 
+/********************************************************************************
+ *                                                                             *
+ * Rinoy                                                                       *
+ *                                                                             *
+ ******************************************************************************/
+
+
+#labelts{
+	-fx-background-color: transparent;
+	 -fx-font-family: "Segoe UI Light ";
+    -fx-font-size: 20pt;
+    -fx-text-fill: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+#animated{
+    -fx-text-fill: white;
+    -fx-font-size: 38pt;
+    -fx-padding: 30 0 0 53;
+}
+#name-label{
+    -fx-text-fill: white;
+    -fx-font-size: 15pt;
+    -fx-padding: 0 0 0 300;
+}
+#img-label{
+	
+    -fx-padding: 50 0 0 130;
+}
+#right-label{
+	-fx-text-fill	:	white;
+    -fx-font-size	:	12pt;
+    -fx-padding		: 	0 0 10 10;
+}
+#user-name{
+	-fx-background-radius: 0, 0;
+    -fx-background-color: #bababa, white;
+    -fx-prompt-text-fill: #9f9f9f;
+    -fx-highlight-fill: #008287; /* TODO: this probably is the "active" color" */
+    -fx-highlight-text-fill: white;
+}
+
+#user-name:hover{
+	-fx-background-color: #8f8f8f, white;
+}
+
+#user-name:focused{
+    -fx-background-color: #5c5c5c, white;
+
+    -fx-text-fill: black;
+}
+
+#user-name-label{
+	-fx-text-fill	:white;
+	-fx-font-size: 15pt;
+}
+#login-label{
+	-fx-text-fill: white;
+    -fx-font-size: 19pt;
+    -fx-padding: -10 0 0 110;
+}
+#login-details{
+    -fx-padding		: 	0 0 0 150;
+}
+#loginbox{
+    -fx-padding		: 	2 0 0 100;
+}
+#wrong-label{
+	-fx-text-fill: #ff0000;
+    -fx-font-size: 12pt;
+}
+
+

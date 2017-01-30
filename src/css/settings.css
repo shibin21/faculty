@@ -1,0 +1,43 @@
+#button{
+	-fx-pref-width:200;
+	-fx-pref-height:120;
+	-fx-background-color:#bdc3c7;
+	-fx-text-fill:grey;
+	-fx-font-family: "Segoe UI Bold ";
+	-fx-font-size: 14pt;
+	-fx-border-width:0;
+	-fx-background-radius:0;
+}
+#button:hover{
+	-fx-background-color:#ecf0f1;
+	-fx-text-fill:#3498db;
+}
+#centerpane{
+	-fx-padding:-150 0 0 0;
+}
+#add{
+	-fx-pref-width:60;
+	-fx-pref-height:10;
+	-fx-background-color:#3498db;
+	-fx-text-fill:white;
+	-fx-font-family: "Segoe UI Bold ";
+	-fx-font-size: 10pt;
+	-fx-border-width:0;
+	-fx-background-radius:0;
+}
+#add:hover{
+	-fx-background-color:#bdc3c7;
+	-fx-text-fill:grey;
+}
+.text-input{
+    -fx-background-radius: 0, 0;
+    -fx-background-color: #ecf0f1;
+    -fx-border-color: #3498db;
+    -fx-background-insets: 0;
+    -fx-prompt-text-fill: #818181;
+    -fx-highlight-fill: #008287; /* TODO: this probably is the "active" color" */
+    -fx-highlight-text-fill: white;
+    -fx-text-fill: grey;
+    -fx-font-family: "Segoe UI Light";
+    -fx-font-size: 14px;
+}

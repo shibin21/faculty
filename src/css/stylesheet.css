@@ -1,0 +1,137 @@
+.root {
+    -fx-background-color: #2b5797;
+    
+}
+.combo-box {
+    -fx-background-radius: 0;
+    -fx-background-color: #1d1d1d;
+    -fx-font-family: "Segoe UI Light ", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: blue;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+    -fx-focus-color: transparent;
+     -fx-border-color: #000;
+    -fx-border-width: 1;
+}
+.combo-box > .list-cell{
+   -fx-text-fill: #a daead;
+}
+.combo-box:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.combo-box:pressed, .combo-box:default:hover:pressed {
+  -fx-background-color: white;
+}
+
+.combo-box:focused {
+   	-fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-focus-color: transparent;
+}
+
+.combo-box:disabled, .combo-box:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+}
+
+.combo-box:default {
+    -fx-background-color: transperent;
+}
+
+.combo-box:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
+
+
+.date-picker .month-year-pane{
+   	-fx-background-color: black;
+    -fx-padding: 0;
+}
+.date-picker .combo-box-base {
+    -fx-padding: 0px ;
+}
+  
+
+.button {
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+    -fx-border-width: 2;
+    -fx-border-color : white;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+    
+    
+}
+ 
+.button:hover{
+    -fx-background-color: transparent;
+    
+}
+ 
+.button:pressed, .button:default:hover:pressed
+{
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+    -fx-border-width: 2;
+    -fx-border-color : white;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+}
+ 
+.button:focused
+{
+    -fx-background-radius: 100;
+    -fx-border-radius: 100;
+    -fx-border-width: 2;
+    -fx-border-color : white;
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-border-insets: 0; 
+}
+
+#detailb{
+	 -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-width: 2;
+    -fx-border-color : #00aba9;
+    -fx-background-color: #00aba9;
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+     -fx-font-family: "Segoe UI Light ";
+    -fx-font-size: 10pt;
+    -fx-text-fill: white;
+    
+     -fx-background-size: 35, 50;
+    -fx-background-repeat: no-repeat;
+     -fx-background-position:center;
+}
+
+#entryb{
+	 -fx-background-radius: 0;
+    -fx-border-radius: 0;
+    -fx-border-width: 2;
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+     -fx-font-family: "Segoe UI Light ";
+    -fx-font-size: 10pt;
+    -fx-text-fill: white;
+    -fx-background-color: #8c0095;
+    -fx-border-color : #8c0095;
+    
+     -fx-background-size: 60, 60;
+    -fx-background-repeat: no-repeat;
+     -fx-background-position:center;
+    
+	
+}
+
+#labelts{
+	-fx-background-color: transparent;
+	 -fx-font-family: "Segoe UI Light ";
+    -fx-font-size: 20pt;
+    -fx-text-fill: white;
+}
